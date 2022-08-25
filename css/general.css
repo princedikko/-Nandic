@@ -1,0 +1,105 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-family: "Mulish", sans-serif;
+  color: #000;
+}
+
+*::placeholder {
+  font-size: 1.3rem;
+  font-weight: 200;
+  color: #999;
+}
+
+*:focus {
+  outline: 0;
+}
+
+.heading--primary {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.heading--secondary {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.container {
+  max-width: 130rem;
+  padding: 7.6rem 3.2rem;
+  margin: 0 auto;
+}
+
+.golf {
+  display: grid;
+}
+
+.golf2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.golf3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gol4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.forward,
+.backword {
+  display: inline-block;
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: 0.8rem;
+  border-radius: 50rem;
+  color: #333;
+  position: absolute;
+  box-shadow: 0px 0px 2rem 0px rgba(0, 0, 0, 0.3);
+  font-size: 2rem;
+  background-color: #fff;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.backword,
+.forward {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backword {
+  bottom: 17.2rem;
+  left: 1.4rem;
+}
+
+.forward {
+  bottom: 17.2rem;
+  right: 1.4rem;
+}
+
+.icon {
+  stroke: #000;
+  width: 2.4rem;
+  height: 2.4rem;
+}
