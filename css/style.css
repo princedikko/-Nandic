@@ -551,8 +551,12 @@ OVERVIEW DEC-BLOCK
   background-size: cover;
   background-repeat: no-repeat;
   background-origin: border-box;
+  opacity: 0.7;
 }
 
+.overview--play video {
+  opacity: 1;
+}
 .overview {
   width: 100%;
   border-radius: 1.2rem;
@@ -849,7 +853,8 @@ AFFILIATION DEC-BLOCK
 */
 
 .secton--affliate {
-  background-color: #eaeff7;
+  /* background-color: #eaeff7; */
+  background-color: #f7f9fa;
   opacity: 0.7;
 }
 
@@ -969,6 +974,7 @@ h3.affi--head span {
 FEATURE DEC-BLOCK
 --------------------------------------
 */
+
 .feature--container {
   grid-template-columns: 1.5fr 3fr;
   grid-gap: 5.6rem;
@@ -1033,7 +1039,7 @@ FEATURE DEC-BLOCK
   width: 90%;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-
+  background-color: #f7f9fa;
   box-shadow: 5.1px 5.1px 20px 0px rgba(0, 0, 0, 0.2);
   border-radius: 0.8rem;
 }
@@ -1210,7 +1216,9 @@ button[type="send"] {
   border-radius: 0.3rem;
   cursor: pointer;
 }
-
+.end--app input {
+  background-color: transparent;
+}
 /* 
 --------------------------------------
 FOOTER DEC-BLOCK
@@ -1296,7 +1304,7 @@ button[type="lang"] {
 button[type="lang"]:hover,
 button[type="lang"]:active {
   /* opacity: 0.5; */
-  background-color: #999;
+  background-color: #333;
 }
 .footer--gecco {
   display: flex;
@@ -1328,16 +1336,17 @@ input[name="subscribe"] {
 }
 
 .footer--btn {
-  background-color: #999;
+  background-color: transparent;
+  border: 0.5px solid #fff;
   color: #fff;
-  border: none;
   padding: 0.5rem;
   cursor: pointer;
 }
 
 .footer--btn:hover,
 .footer--btn:active {
-  opacity: 0.7;
+  /* opacity: 0.7; */
+  background-color: #333;
 }
 
 .footer--icon {
@@ -1349,8 +1358,8 @@ input[name="subscribe"] {
   display: grid;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
-  border-radius: 50rem;
+  /* background-color: #fff; */
+  /* border-radius: 50rem; */
   width: 3.2rem;
   height: 3.2rem;
   text-align: center;
