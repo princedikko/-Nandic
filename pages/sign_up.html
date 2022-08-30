@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,800&family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sign Up | Nandic</title>
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="navigation">
+        <figuure class="nav--logo">
+          <a href="../index.html">
+            <img
+              src="../images/Nandic logo.png"
+              alt="learn computer skills online, nandic, nandic logo"
+              class="home--logo"
+            />
+          </a>
+        </figuure>
+        <ul class="nav--bar">
+          <li class="seaching">
+            <a href="#" class="nav--item">Category</a>
+            <div class="search--bar">
+              <form action="#" id="nav--search--bar">
+                <input
+                  type="text"
+                  placeholder="Search..."
+                  name="search"
+                  id="nav--search"
+                />
+                <button type="search">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="search--btn"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                    />
+                  </svg>
+                </button>
+              </form>
+            </div>
+            <!-- <form action="#" id="nav--search--bar">
+          <input
+            type="text"
+            placeholder="Search..."
+            name="search"
+            id="nav--search"
+          />
+        </form> -->
+          </li>
+
+          <li><a href="#" class="nav--item">Courses</a></li>
+          <li><a href="#" class="nav--item">Company</a></li>
+        </ul>
+        <figure class="nav--icon">
+          <a href="login.html" class="nav--btn" id="login">Login</a>
+          <a href="#" class="nav--btn" id="signup">Create Account</a>
+          <a href="sign_up.html" id="lang">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon--navbar"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+              />
+            </svg>
+          </a>
+        </figure>
+      </div>
+    </header>
+    <main> 
+      <section class="section--login--form">
+        <div class="login--cont container">
+          <div class="login--form">
+            <h1 class="form--heading">Sign up <br/> Enjoy learning</h1>
+            <form action="#" id="form">
+              <input type="text" class="firstName" placeholder="Fist name..." required/>
+              <input type="text" class="otherName" placeholder="Other names..." required/>
+              <input type="email" class="Email" placeholder="Email address..." required/>
+              <input type="password" class="password placeholder="password" required />
+              <div>
+                <select name="country" id="country" required>
+                  <option value="select country">Country:</option>
+                  <option value="select country">Nigeria</option>
+                  <option value="select country">Saudi Arabia</option>
+                  <option value="select country">United Arab Emirate</option>
+                  <option value="select country">Canada</option>
+                  <option value="select country">Spain</option>
+                  <option value="select country">Ghana</option>
+                  <option value="select country">Russia</option>
+                  <option value="select country">Chani</option>
+                </select>
+                <select name="Course" id="course" required>
+                  <option value="choose atleast one">Course:</option>
+                  <option value="choose atleast one">Advance Compter Oparation</option>
+                  <option value="choose atleast one">Advance Software Engineering</option>
+                </select>
+              </div>
+              <button type="submit"> Sign up</button>
+              <aside class="note">
+                <p>By signing up, you agree to our <a href="#">Terms of Use</a>  and <a href="#">Privacy Policy</a></p>
+                <p>Already have an account? <a href="login.html">Log In</a></p>
+              </aside>
+            </form> 
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="section--footer">
+      <div class="footer container">
+        <div class="footer--top">
+          <div class="footer--heading">
+            <h2 class="footer--header heading--secondary">COMPANY</h3>
+              
+                          
+            <div class="footer--lang">
+              
+              <button type="lang">
+                <span>
+                  <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon" id="lang--icon"
+                  
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                />
+              </svg>
+                </span>
+                English</button>
+              </div>
+            </div>
+          <div class="footer--items">
+            <ul class="footer--list footer--block">
+              <li><a href="#">About Nandic</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Press and media</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Terms</a></li>
+            </ul>
+            <ul class="footer--list">
+              <li><a href="#">About Nandic</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Press and media</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Terms</a></li>
+            </ul>
+            <ul class="footer--list">
+              <li><a href="#">About Nandic</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Press and media</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Terms</a></li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="footer--gecco">
+          <p class="subscribe">Subscribe to our news letter</p>
+          <form action="#" name="footer--form">
+            <input type="text" name="subscribe" placeholder="Email address"/>
+            <button class="footer--btn">Subscribe</button>
+          </form>
+          <div class="footer--icon">
+            <a href="#">
+
+              <img src="../icons/facebook-logo-light (1).svg" alt="facebook">
+            </a>
+            <a href="#">
+
+              <img src="../icons/youtube-logo-light.svg" alt="YouTube">
+            </a>
+            <a href="#">
+              <img src="../icons/twitter-logo-light.svg" alt="twitter">
+          </a>
+          
+          <!-- <a href="#">
+            <img src="/icons/logo-instagram.svg" alt="instagram">
+          </a> -->
+            <a href="#">
+                <img src="../icons/whatsapp-logo-light.svg" alt="whatsapp icon">
+            </a>
+            
+          </div>
+        </div>
+        <div class="footer--bottom">
+          <div class="copyright"><p>Copyright &copy; 2022 Nandic All rights reserved.</p></div>
+          <ul class="copy--link">
+            <li> <a href="#"> Terms of services </a></li>
+            <li> <a href="#"> Privacy policy </a></li>
+            <li> <a href="#"> Cookie setting </a></li>
+            <li> <a href="#"> Responsible disclosure setting </a></li>
+          </ul>
+        </div>
+      </div>  
+  </footer>
+  </body>
+</html>

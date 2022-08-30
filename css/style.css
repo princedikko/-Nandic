@@ -547,7 +547,7 @@ OVERVIEW DEC-BLOCK
   max-width: 115rem;
   margin: 0 auto;
   padding: 5rem 6.2rem;
-  background-image: url("/images/gallery/gal-play.png");
+  background-image: url("../images/gallery/gal-play.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-origin: border-box;
@@ -840,7 +840,7 @@ form select {
       rgb(46 205 205 / 17%),
       rgb(28 120 139 / 59%)
     ),
-    url(/images/cta.jpg);
+    url(../images/cta.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   transform: rotateY(180deg);
