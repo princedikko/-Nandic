@@ -56,6 +56,13 @@ button[type="submit"]:active {
   /* color: #000; */
 }
 
+.forgot--pwd {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 2.4rem;
+  font-weight: 600;
+}
+
 .note {
   display: flex;
   flex-direction: column;
@@ -65,7 +72,10 @@ button[type="submit"]:active {
 }
 .note p:first-child {
   font-size: 1.3rem;
+  padding-bottom: 2.4rem;
 }
 .note p:nth-child(2) {
   font-size: 1.5rem;
+  border-top: 1px solid #ddd;
+  padding-top: 2.4rem;
 }
