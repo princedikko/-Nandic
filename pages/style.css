@@ -22,6 +22,11 @@
   font-size: 3.4rem;
   margin: 2.4rem 0rem;
 }
+
+.login--sec {
+  font-size: 1.8rem;
+}
+
 #form input,
 #form select {
   /* background-color: #f5f5f5; */
@@ -31,6 +36,11 @@
   border-radius: 0.4rem;
 }
 
+#form input:focus,
+#form select:focus {
+  background-color: #d5e0f0;
+  border-radius: 50rem;
+}
 #form div {
   display: flex;
   gap: 2.4rem;
