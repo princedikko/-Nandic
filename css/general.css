@@ -77,6 +77,7 @@ body .icon {
 a:link,
 a:visited {
   text-decoration: none;
+  color: #2f63b2;
 }
 
 .center {
@@ -121,4 +122,9 @@ a:visited {
   stroke: #000;
   width: 2.4rem;
   height: 2.4rem;
+}
+.icon-mini {
+  stroke: #fff;
+  width: 1.8rem;
+  height: 1.8rem;
 }
